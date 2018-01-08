@@ -160,12 +160,9 @@ tap 'caskroom/cask'
 # Essentials
 brew 'git'          # Essential
 brew 'node'         # Essential comes with npm
-brew 'heroku'       # Cloud Based Paas
-brew 'git-lfs'      # Git Big Files Transfer
-brew 'yarn'         # npm on 💊
 brew 'zsh-completions'
 brew 'tree'         # Tree Command
-brew 'youtube-dl'   # Download Youtube - Udemy
+cask 'imageoptim'
 
 # Browsers
 # cask 'google-chrome' # Browser Installed at the beginning
@@ -173,46 +170,41 @@ cask 'firefox'       # Browser
 
 # Coding Essentials
 cask 'visual-studio-code'   # Awesomeness 🎆 💻 🎆
-cask 'github-desktop'       # Git GUI
+cask 'sourcetree'
 cask 'sublime-text'         # Ultra fast 🏃
 
+
 # Design Essentials
-cask 'sketch'        # Epic design tool
-cask 'noun-project'  # Free icons
+# cask 'sketch'        # Epic design tool
+# cask 'noun-project'  # Free icons
+
 
 # MAC Quality of life
-cask 'rocket'        # Emojis on 💊
 cask 'alfred'        # Spotlight on 💊
 cask 'spectacle'     # Windows Rearrangment
 
 # Utilities
 cask 'spotify'       # Music
 cask 'slack'         # Chat - Work
-cask 'discord'       # Chat - Games
-cask 'whatsapp'      # Chat - Personal
-cask 'flux'          # Eyes Health
-cask 'adobe-acrobat-reader'    # PDF Reader
-cask 'transmission'  # Torrents Manager   
-cask 'postman'       # Api Requests
-cask 'calibre'       # E-Books Manager
+cask 'evernote'
+cask '1password'
+cask 'skype'
+cask 'tunnelblick'
+
 
 # Cloud
-cask 'dropbox'                 # Dropbox Cloud  
 cask 'google-backup-and-sync'  # Google Cloud
+cask 'virtualbox'
 
 # Coding Utilities
 cask 'sequel-pro'    # SQL
 cask 'vlc'           # Videos
-cask 'filezilla'     # FTP
 
-# Others
+
+# Others   
 mas 'Amphetamine' id: 937984704 # Stop Mac from sleeping
-mas 'Parcel - Delivery Tracking' id: 639968404 # Delivery Tracking
-mas 'Pocket', id: 568494494 # Saved articles
 mas 'Skitch - Snap. Mark up. Share.', id: 425955336 # Markup tools
 mas 'Dr. Cleaner: Disk,Memory,System Optimizer', id: 921458519 # Clean memory and space 
-mas 'GIPHY Capture. The GIF Maker', id: 668208984 # Capture Gifs + Captions
-mas 'Trello', id: 1278508951 # Task Manager
 ```
 Feel free to add or remove apps
 
